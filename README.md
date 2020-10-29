@@ -14,9 +14,9 @@
 
 * [视频教程](https://youtu.be/YwVZxtFFSpM)
 
-* [JS.conf](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule)
+* [JS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/JS.conf)
 
-* [Cookie.conf](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Cookie.sgmodule)
+* [Cookie.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/Cookie.conf)
 
 ### Surge脚本订阅 ：
 
