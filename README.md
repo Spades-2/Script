@@ -18,9 +18,6 @@
 
 * [JS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/JS.conf)
 
-* 避免比价脚本失效导致禁用整个脚本组，故单独整合
-* [Price.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/Price.conf)
-
 * [Cookie.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/Cookie.conf)
 
 ## 免责声明 ：
