@@ -20,15 +20,6 @@
 
 * [Cookie.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/Cookie.conf)
 
-### Surge脚本订阅 ：
-
-* [视频教程](https://youtu.be/YwVZxtFFSpM)
-
-* [Cookie.sgmodule](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Cookie.sgmodule)
-
-* [Task.sgmodule](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule)
-
-
 ## 免责声明 ：
 
 * Spades-2发布的Script项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
