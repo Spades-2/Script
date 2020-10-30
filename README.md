@@ -14,7 +14,7 @@
 
 ### Quantumult-x脚本订阅 ：
 
-* [视频教程](https://youtu.be/YwVZxtFFSpM)
+* [视频教程](https://www.youtube.com/watch?v=laqB-SMHO1w&t=58s&ab_channel=HellCell)
 
 * [JS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/JS.conf)
 
