@@ -1,3 +1,7 @@
+#!name=比价脚本
+#!desc=京东，淘宝比价，奈飞评分
+#!system=ios
+
 # [MITM]
 hostname = api.m.jd.com, trade-acs.m.taobao.com, ios.prod.ftl.netflix.com
 
