@@ -3,7 +3,7 @@
 #!system=ios
 
 # [MITM]
-hostname = api.m.jd.com, trade-acs.m.taobao.com, ios.prod.ftl.netflix.com
+hostname = ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com
 
 # [Script]
 # 奈飞评分
