@@ -2,10 +2,8 @@
 #!desc=京东，淘宝比价，奈飞评分
 #!system=ios
 
-# [MITM]
-hostname = ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com
 
-# [Script]
+[Script]
 # 奈飞评分
 http-request ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 http-response ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
@@ -20,3 +18,6 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 
+
+[MITM]
+hostname = ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com
