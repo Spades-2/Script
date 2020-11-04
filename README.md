@@ -30,7 +30,7 @@
 
 * [JS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/JS.sgmodule)
 
-* [PriceJS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/PriceJS.sgmodule)
+* [PriceJS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Price-JS.sgmodule)
 
 ## 免责声明 ：
 
