@@ -10,7 +10,7 @@
 
 * 只测试自用脚本，其他大部分脚本未测试可用性
 
-* 自用Quantumult-X，所以优先维护
+* 自用Quantumult-X，优先维护
 
 ### Quantumult-x脚本订阅 ：
 
@@ -18,7 +18,13 @@
 
 * [JS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/JS.conf)
 
-* [Cookie.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/Cookie.conf)
+* [PriceJS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/PriceJS.conf)
+
+* Cookie建议使用以下两位大佬 （二选一）
+
+* [JS_GetCookie.conf（Orz-3）](https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf)
+
+* [js_cookie.conf（w37fhy）](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/js_cookie.conf)
 
 ### surge脚本订阅 ：
 
