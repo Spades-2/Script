@@ -10,15 +10,13 @@
 
 * 只测试自用脚本，其他大部分脚本未测试可用性
 
-* 自用Quantumult-X，优先维护
-
 ### Quantumult-x脚本订阅 ：
 
 * [视频教程](https://www.youtube.com/watch?v=laqB-SMHO1w&t=58s&ab_channel=HellCell)
 
 * [JS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/JS.conf)
 
-* [PriceJS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/PriceJS.conf)
+* [Price-JS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/Price-JS.conf)
 
 * Cookie建议使用以下两位大佬 （二选一）
 
@@ -30,7 +28,9 @@
 
 * [JS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/JS.sgmodule)
 
-* [PriceJS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Price-JS.sgmodule)
+* [Price-JS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Price-JS.sgmodule)
+
+* [Task-JS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Task-JS.sgmodule)
 
 ## 免责声明 ：
 
