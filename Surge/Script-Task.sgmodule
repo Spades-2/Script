@@ -114,7 +114,7 @@ GitHub = type=cron, cronexp=0 9 * * *, script-path=https://raw.githubusercontent
 京喜工厂=type=cron, cronexp="10 * * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_dreamFactory.js, script-update-interval=0
 
 # > 东东工厂
-东东工厂=type=cron, cronexp=0 */3 * * *, timeout=60, script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/dd_factory.js, script-update-interval=0
+东东工厂=type=cron, cronexp=0 */3 * * *, timeout=60, timeout=20, script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/dd_factory.js, script-update-interval=0
 
 # > 京喜财富岛
 京喜财富岛=type=cron, cronexp="30 23 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js, script-update-interval=0
@@ -127,6 +127,18 @@ GitHub = type=cron, cronexp=0 9 * * *, script-path=https://raw.githubusercontent
 
 # > 领京豆额外奖励
 领京豆额外奖励=type=cron, cronexp="10 7 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js, script-update-interval=0
+
+# > 京东快递签到
+京东快递签到=type=cron, cronexp="10 0 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js, script-update-interval=0
+
+# > 金榜年终奖
+金榜年终奖=type=cron, cronexp="10 0 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_split.js, script-update-interval=0
+
+# > 京东汽车
+京东汽车=type=cron, cronexp="10 7 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car.js, script-update-interval=0
+
+# > 健康抽奖机
+健康抽奖机=type=cron, cronexp="10 0 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_health.js, script-update-interval=0
 
 
 
