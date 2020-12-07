@@ -26,11 +26,11 @@
 
 ### surge脚本订阅 ：
 
-* [JS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/JS.sgmodule)
+* [Script.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Script.sgmodule)
 
-* [Price-JS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Price-JS.sgmodule)
+* [Script-Price.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Script-Price.sgmodule)
 
-* [Task-JS.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Task-JS.sgmodule)
+* [Script-Task.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Script-Task.sgmodule)
 
 ## 免责声明 ：
 
