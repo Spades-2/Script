@@ -1,4 +1,5 @@
-#!name=Tartarus iOS Cookies Module
-#!desc=iOS Cookies 模块配置
+#!name=Script - Cookie（Spades-2）
+#!desc=Cookie 模块配置
+#!system=ios
 
 [Script]
