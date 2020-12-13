@@ -3,3 +3,65 @@
 #!system=ios
 
 [Script]
+# ---  <chavyleung https://github.com/chavyleung/scripts>  ---
+# > 中国电信-(wapside.189.cn:9001)
+中国电信Cookie = type=http-request, pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, requires-body=true
+
+# > 哔哩哔哩-(*.bilibili.com)
+哔哩哔哩Cookie = type=http-request, pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js,enable=false, requires-body=true
+
+# > 网易云音乐-(music.163.com)
+网易云音乐Cookie = type=http-request, pattern=^https:\/\/music.163.com\/weapi\/user\/level, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js, requires-body=true
+
+# > 腾讯视频-(*.video.qq.com)
+腾讯视频Cookie = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js, requires-body=true
+
+# > 芒果tv-(credits.bz.mgtv.com)
+芒果tvCookie = type=http-request, pattern=^https:\/\/credits.bz.mgtv.com\/user\/creditsTake, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js, requires-body=true
+
+# > 美团-(i.meituan.com)
+美团获取Cookie = type=http-request, pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, requires-body=true
+
+
+# ---  <Nobyda https://github.com/NobyDa/Script/tree/master>  ---
+# > 京东-(api.m.jd.com)
+京东获取Cookie = type=http-request, pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, requires-body=true
+
+# > 爱奇艺-(ifac*.iqiyi.com)
+爱奇艺获取Cookie = type=http-request, pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, requires-body=true
+
+# > 百度贴吧(客户端)-(c.tieba.baidu.com)  
+贴吧获取Cookie = type=http-request, pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, requires-body=true
+
+
+# ---  <songyangzz https://github.com/songyangzz/QuantumultX>  ---
+# > 饿了么-(h5.ele.me)
+饿了么获取Cookie = type=http-response, pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$, script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js, requires-body=true
+
+
+# ---  <Peng-YM https://github.com/Peng-YM/QuanX/tree/master/Tasks>  ---
+# > 彩云天气-(weather-data.apple.com, api.weather.com)
+彩云天气获取Cookie = type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, requires-body=true
+
+
+# ---  <dompling https://github.com/dompling/Script>  ---
+# > 毒汤日历-(www.dutangapp.cn)
+毒汤日历获取Cookie = type=http-response, pattern=^http:\/\/www.dutangapp.cn\/u\/me, script-path=https://raw.githubusercontent.com/dompling/Script/master/DJT/djt.cookie.js, require-body=true
+
+
+[MITM]
+hostname = wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
