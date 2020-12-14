@@ -49,11 +49,6 @@
 毒汤日历获取Cookie = type=http-response, pattern=^http:\/\/www.dutangapp.cn\/u\/me, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/dompling/Script/master/DJT/djt.cookie.js, script-update-interval=0
 
 
-# ------ <XidNDD https://github.com/XidNDD/2020scripts> ------
-# > 追书畅读版-(*.zhuishushenqi.com)
-追书畅读版 = type=http-request, pattern=^https:\/\/.+zhuishushenqi\.com\/*, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/zscdbSign.js, script-update-interval=0
-
-
 # ------ <Evilbutcher https://github.com/evilbutcher/Quantumult_X/tree/master> ------
 # > 机场签到Cookie版-(maying.co)
 机场签到Cookie = type=http-request, pattern=https:\/\/maying\.co, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, script-update-interval=0
@@ -64,7 +59,7 @@
 
 
 [MITM]
-hostname = wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn, *.zhuishushenqi.com, maying.co, youyun777.net                          
+hostname = wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn, maying.co, youyun777.net                          
 
 
 
