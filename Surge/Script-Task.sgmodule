@@ -140,11 +140,6 @@ GitHub = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=ht
 京喜财富岛 = type=cron, cronexp="30 23 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js, script-update-interval=0
 
 
-# ------ <XidNDD https://github.com/XidNDD/2020scripts> ------
-# > 追书畅读版
-追书畅读版 = type=cron, cronexp=0 10 0 * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/zscdbSign.js, script-update-interval=0
-
-
 # ------ <Evilbutcher https://github.com/evilbutcher/Quantumult_X/tree/master> ------
 # > 机场签到Cookie版
 机场签到Cookie版 = type=cron, cronexp=5 0 * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, script-update-interval=0
