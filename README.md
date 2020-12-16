@@ -10,10 +10,9 @@
 
 * 只测试自用脚本，其他大部分脚本未测试可用性
 
-* 由于精力原因，二者不是同时更新，优先更新surge的脚本，但可以使用©𝐒𝐡𝐚𝐰𝐧(https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js)大佬的解析器来使用surge的脚本
+* 由于精力原因，二者不是同时更新，优先更新surge的脚本，但可以使用©𝐒𝐡𝐚𝐰𝐧大佬的解析器来使用surge的脚本
 
-
-
+* [©𝐒𝐡𝐚𝐰𝐧](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js)
 
 ### surge脚本订阅 ：
 
