@@ -16,6 +16,8 @@
 
 ### surge脚本订阅 ：
 
+* [北纬37度的大飛的视频教程](https://www.youtube.com/channel/UCXdlywuMV_a8jEZ4wV6669g)
+
 * [Script.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Script.sgmodule)
 
 * [Script-Price.sgmodule](https://raw.githubusercontent.com/Spades-2/Script/main/Surge/Script-Price.sgmodule)
@@ -26,7 +28,9 @@
 
 ### Quantumult-x脚本订阅 ：
 
-* [视频教程](https://www.youtube.com/watch?v=laqB-SMHO1w&t=58s&ab_channel=HellCell)
+* [Hell Cell的视频教程](https://www.youtube.com/channel/UCgjdfJbXYaFfC3Wxump37Mg)
+
+* [北纬37度的大飛的视频教程](https://www.youtube.com/channel/UCXdlywuMV_a8jEZ4wV6669g)
 
 * [JS.conf](https://raw.githubusercontent.com/Spades-2/Script/main/Quantumult-X/JS.conf)
 
