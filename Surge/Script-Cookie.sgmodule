@@ -5,61 +5,67 @@
 [Script]
 # ---  <chavyleung https://github.com/chavyleung/scripts>  ---
 # > 中国电信-(wapside.189.cn:9001)
-中国电信Cookie = type=http-request, pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, script-update-interval=0
+中国电信 Cookie = type=http-request, pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, script-update-interval=0
 
 # > 哔哩哔哩-(*.bilibili.com)
-哔哩哔哩Cookie = type=http-request, pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js,enable=false, script-update-interval=0
+哔哩哔哩 Cookie = type=http-request, pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js,enable=false, script-update-interval=0
 
 # > 网易云音乐-(music.163.com)
-网易云音乐Cookie = type=http-request, pattern=^https:\/\/music.163.com\/weapi\/user\/level, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js, script-update-interval=0
+网易云音乐 Cookie = type=http-request, pattern=^https:\/\/music.163.com\/weapi\/user\/level, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js, script-update-interval=0
 
 # > 腾讯视频-(*.video.qq.com)
-腾讯视频Cookie = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js, script-update-interval=0
+腾讯视频 Cookie = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js, script-update-interval=0
 
 # > 芒果tv-(credits.bz.mgtv.com)
-芒果tvCookie = type=http-request, pattern=^https:\/\/credits.bz.mgtv.com\/user\/creditsTake, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js, script-update-interval=0
+芒果tv Cookie = type=http-request, pattern=^https:\/\/credits.bz.mgtv.com\/user\/creditsTake, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js, script-update-interval=0
 
 # > 美团-(i.meituan.com)
-美团获取Cookie = type=http-request, pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, script-update-interval=0
+美团 Cookie = type=http-request, pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, script-update-interval=0
 
 
 # ---  <Nobyda https://github.com/NobyDa/Script/tree/master>  ---
 # > 京东-(api.m.jd.com)
-京东获取Cookie = type=http-request, pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, script-update-interval=0
+京东 Cookie = type=http-request, pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, script-update-interval=0
 
 # > 爱奇艺-(ifac*.iqiyi.com)
-爱奇艺获取Cookie = type=http-request, pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, script-update-interval=0
+爱奇艺 Cookie = type=http-request, pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, script-update-interval=0
 
 # > 百度贴吧(客户端)-(c.tieba.baidu.com)  
-贴吧获取Cookie = type=http-request, pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, script-update-interval=0
+贴吧 Cookie = type=http-request, pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, script-update-interval=0
 
 
 # ---  <songyangzz https://github.com/songyangzz/QuantumultX>  ---
 # > 饿了么-(h5.ele.me)
-饿了么获取Cookie = type=http-response, pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js, script-update-interval=0
+饿了么 Cookie = type=http-response, pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js, script-update-interval=0
 
 
 # ---  <Peng-YM https://github.com/Peng-YM/QuanX/tree/master/Tasks>  ---
 # > 彩云天气-(weather-data.apple.com, api.weather.com)
-彩云天气获取Cookie = type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, script-update-interval=0
+彩云天气 Cookie = type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, script-update-interval=0
 
 
 # ---  <dompling https://github.com/dompling/Script>  ---
 # > 毒汤日历-(www.dutangapp.cn)
-毒汤日历获取Cookie = type=http-response, pattern=^http:\/\/www.dutangapp.cn\/u\/me, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/dompling/Script/master/DJT/djt.cookie.js, script-update-interval=0
+毒汤日历 Cookie = type=http-response, pattern=^http:\/\/www.dutangapp.cn\/u\/me, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/dompling/Script/master/DJT/djt.cookie.js, script-update-interval=0
 
 
-# ------ <Evilbutcher https://github.com/evilbutcher/Quantumult_X/tree/master> ------
+# --- <Evilbutcher https://github.com/evilbutcher/Quantumult_X/tree/master> ---
 # > 机场签到Cookie版-(maying.co)
-机场签到Cookie = type=http-request, pattern=https:\/\/maying\.co, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, script-update-interval=0
+机场签到 Cookie = type=http-request, pattern=https:\/\/maying\.co, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, script-update-interval=0
 
 # > 机场签到Cookie版-(youyun777.net)
-机场签到Cookie = type=http-request, pattern=https:\/\/youyun777\.net, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, script-update-interval=0
+机场签到 Cookie = type=http-request, pattern=https:\/\/youyun777\.net, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, script-update-interval=0
+
+
+# --- <Sunert https://github.com/Sunert/Scripts> ---
+# > 微信小程序 来客有礼-(draw.jdfcloud.com)
+微信小程序-来客有礼 Cookie = type=http-request, pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, script-update-interval=0
+
 
 
 
 [MITM]
-hostname = wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn, maying.co, youyun777.net                          
+hostname = wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn, maying.co, youyun777.net, draw.jdfcloud.com                          
 
 
 
