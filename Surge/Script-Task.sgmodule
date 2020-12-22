@@ -144,13 +144,12 @@ GitHub = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=ht
 
 # ------ <Sunert https://github.com/Sunert/Scripts> ------
 # > 微信小程序 来客有礼
-来客有礼 = type=cron, cronexp=35 5 0 * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,script-update-interval=0, script-update-interval=0
+来客有礼 = type=cron, cronexp=35 5 0 * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, script-update-interval=0
 
 
-
-
-
-
+# ------ <gcdd1993 https://github.com/gcdd1993/jd_scripts> ------
+# > 疯狂的JOY
+疯狂的JOY = type=cron, cronexp=*/5 * * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/gcdd1993/jd_scripts/master/jd_crazy.js, script-update-interval=0
 
 
 
