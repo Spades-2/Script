@@ -125,9 +125,6 @@ GitHub = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=ht
 # > 京东快递签到
 京东快递签到 = type=cron, cronexp="10 0 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js, script-update-interval=0
 
-# > 金榜年终奖
-金榜年终奖 = type=cron, cronexp="10 0 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_split.js, script-update-interval=0
-
 # > 京东汽车
 京东汽车 = type=cron, cronexp="10 7 * * *", wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car.js, script-update-interval=0
 
