@@ -34,7 +34,7 @@ URL-REGEX, https://api.bilibili.com/x/v2/dm/ad, REJECT
 ^https?:\/\/(.*)\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ https://$1.amemv.com/aweme/v1/$2feed/ header
 
 # ------ <NobyDa https://github.com/NobyDa/Script/tree/master> ------
-# 皮皮虾 去广告和水印
+# > 皮皮虾 去广告和水印
 app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 header
 
 
