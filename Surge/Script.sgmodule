@@ -28,8 +28,6 @@ URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJ
 URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
 
 
-
-
 [URL Rewrite]
 # ------ <Choler https://github.com/Choler> ------
 # > 抖音 去广告
@@ -38,8 +36,6 @@ URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
 # ------ <NobyDa https://github.com/NobyDa/Script/tree/master> ------
 # 皮皮虾去广告和水印
 app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 header
-
-
 
 
 [Script]
@@ -144,8 +140,6 @@ PicsArt.js = type=http-response, pattern=https:\/\/api\.(picsart|meiease)\.c(n|o
 
 # Splice 视频编辑器 pro-(splice.oracle.*.com)
 Splice.js = type=http-response, pattern=https:\/\/splice\.oracle\.\w+\.com\/devices\/me, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Splice.js, script-update-interval=0
-
-
 
 
 [MITM]
