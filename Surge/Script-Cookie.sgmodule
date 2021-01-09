@@ -65,7 +65,7 @@
 
 
 [MITM]
-hostname = wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn, maying.co, youyun777.net, draw.jdfcloud.com                          
+hostname = %APPEND% wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn, maying.co, youyun777.net, draw.jdfcloud.com                          
 
 
 
