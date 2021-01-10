@@ -134,6 +134,9 @@ GitHub = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=ht
 # > CrazyJoy任务
 CrazyJoy任务 = type=cron, cronexp=10 7 * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy.js, script-update-interval=0
 
+# > 口袋书店
+口袋书店 = type=cron, cronexp=1 8,12,18* * *, wake-system=1, timeout=1120, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bookshop.js, script-update-interval=0
+
 
 # ------ <whyour https://github.com/whyour> ------
 # > 京喜财富岛
