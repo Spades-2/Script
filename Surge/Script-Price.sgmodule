@@ -17,4 +17,4 @@ Netflix_Ratings.js = type=http-response, pattern=^https?://ios\.prod\.ftl\.netfl
 Nf_Rating_Season.js = type=http-response, pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js, script-update-interval=0 
 
 [MITM]
-hostname = ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com
+hostname = %INSERT% api.m.jd.com, trade-acs.m.taobao.com, ios.prod.ftl.netflix.com
