@@ -155,8 +155,8 @@ GitHub = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=ht
 # > 京东赚赚
 京东赚赚 = type=cron, cronexp=20 11 * * *, wake-system=1, timeout=750, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdzz.js, script-update-interval=0
 
-# > CrazyJoy任务
-CrazyJoy任务 = type=cron, cronexp=30 8 * * *, wake-system=1, timeout=1750, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy.js, script-update-interval=0
+# > 疯狂的JOY日常任务
+疯狂的JOY日常任务 = type=cron, cronexp=30 8 * * *, wake-system=1, timeout=1750, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy.js, script-update-interval=0
 
 # > 口袋书店
 口袋书店 = type=cron, cronexp=1 8,12,18* * *, wake-system=1, timeout=1120, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bookshop.js, script-update-interval=0
