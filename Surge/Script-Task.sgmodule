@@ -164,6 +164,15 @@ GitHub = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=ht
 # > 签到领现金
 签到领现金 = type=cron, cronexp=0 0 * * *, wake-system=1, timeout=2220, script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_cash.js, script-update-interval=0
 
+# > 获取互助码
+获取互助码 = type=cron, cronexp=20 13 * * 6, wake-system=1, timeout=120, script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_get_share_code.js, script-update-interval=0
+
+# > 京东炸年兽🧨
+京东炸年兽🧨 = type=cron, cronexp=0 8,9,10 * * *, wake-system=1, timeout=22200, script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js, script-update-interval=0
+
+# > 京东收🧨
+京东收🧨 = type=cron, cronexp=20 * * * *, wake-system=1, timeout=200, script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js, script-update-interval=0
+
 
 # ------ <Evilbutcher https://github.com/evilbutcher/Quantumult_X/tree/master> ------
 # > 机场签到Cookie版
