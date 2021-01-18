@@ -173,6 +173,9 @@ GitHub = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=ht
 # > 京东收🧨
 京东收🧨 = type=cron, cronexp=20 * * * *, wake-system=1, timeout=200, script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js, script-update-interval=0
 
+# > 小鸽有礼
+小鸽有礼 = type=cron, cronexp=5 7 * * *, wake-system=1, timeout=200, script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js, script-update-interval=0
+
 
 # ------ <Evilbutcher https://github.com/evilbutcher/Quantumult_X/tree/master> ------
 # > 机场签到Cookie版
