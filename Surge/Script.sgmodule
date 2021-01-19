@@ -46,16 +46,16 @@ wb_ad.js = type=http-response, pattern=^https?://m?api\.weibo\.c(n|om)/2/(status
 
 
 # ------ <Choler https://github.com/Choler> ------
-# > 抖音 去广告-(%APPEND% *.amemv.com)
+# > 抖音 去广告-(*.amemv.com)
 douyin_ad.js = type=http-response, pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/, requires-body=1, max-size=-1, script-path=https://Choler.github.io/Surge/Script/douyin.js, script-update-interval=0
 
-# > 人人视频 去广告-(%APPEND% api.rr.tv)
+# > 人人视频 去广告-(api.rr.tv)
 rrsp_video.js = type=http-response, pattern=^https?:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info,requires-body=1, max-size=0, script-path=https://Choler.github.io/Surge/Script/rrsp.js, script-update-interval=0 
 rrsp_banner.js = type=http-response, pattern=^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel$,requires-body=1, max-size=0, script-path=https://Choler.github.io/Surge/Script/rrsp.js, script-update-interval=0 
 
 
 # ------ <onewayticket255 https://github.com/onewayticket255/Surge-Script> ------
-# > 知乎 去广告-(%APPEND% www.zhihu.com, api.zhihu.com, link.zhihu.com, 118.89.204.198)
+# > 知乎 去广告-(www.zhihu.com, api.zhihu.com, link.zhihu.com, 118.89.204.198)
 zhihu people.js = type=http-response, pattern=https://api.zhihu.com/people/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js, script-update-interval=0 
 zhihu feed.js = type=http-response, pattern=https://api.zhihu.com/moments/recommend, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js, script-update-interval=0 
 zhihu recommend.js = type=http-response, pattern=https://api.zhihu.com/topstory/recommend, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js, script-update-interval=0 
@@ -63,7 +63,7 @@ zhihu answer.js = type=http-response, pattern=https://api.zhihu.com/v4/questions
 zhihu link.js = type=http-request, pattern=https?://link.zhihu.com/\?target=, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20link.js, script-update-interval=0 
 
 
-# > 哔哩哔哩 精简&去广告-(%APPEND% api.bilibili.com, app.bilibili.com, api.live.bilibili.com)
+# > 哔哩哔哩 精简&去广告-(api.bilibili.com, app.bilibili.com, api.live.bilibili.com)
 bilibili space.js = type=http-response, pattern=https://app.bilibili.com/x/v2/space\?access_key, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20space.js, script-update-interval=0
 bilibili tab.js = type=http-response, pattern=https://app.bilibili.com/x/resource/show/tab\?access_key, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js, script-update-interval=0
 bilibili feed.js = type=http-response, pattern=https://app.bilibili.com/x/v2/feed/index\?access_key, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20feed.js, script-update-interval=0
