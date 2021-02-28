@@ -62,7 +62,7 @@
 微信小程序-来客有礼 Cookie = type=http-request, pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, script-update-interval=0
 
 # > 电信套餐查询-(e.189.cn)
-电信套餐查询 Cookie = type=http-request, pattern=https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, script-update-interval=0
+电信套餐查询 = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js,type=http-request,pattern=https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do
 
 
 [MITM]
