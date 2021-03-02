@@ -61,12 +61,13 @@
 # > 微信小程序 来客有礼-(draw.jdfcloud.com)
 微信小程序-来客有礼 Cookie = type=http-request, pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, script-update-interval=0
 
-# > 电信套餐查询-(e.189.cn)
+# > 电信套餐查询-(e.189.cn, mkt.21cn.com)
 电信套餐查询 Cookie = type=http-request, pattern=https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, script-update-interval=0
+电信套餐查询 Cookie = type=http-request, pattern=https:\/\/mkt\.21cn\.com\/mkt\/api\/user\/queryActivityInfo\.do\?activityId=\d+, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomSky.js, script-update-interval=0
 
 
 [MITM]
-hostname = %APPEND% wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn, maying.co, youyun777.net, draw.jdfcloud.com, e.189.cn, *.zhuishushenqi.com                         
+hostname = %APPEND% wapside.189.cn:9001, *.bilibili.com, music.163.com, *.video.qq.com, credits.bz.mgtv.com, i.meituan.com, api.m.jd.com, ifac*.iqiyi.com, c.tieba.baidu.com, h5.ele.me, weather-data.apple.com, api.weather.com, www.dutangapp.cn, maying.co, youyun777.net, draw.jdfcloud.com, e.189.cn, mkt.21cn.com                      
 
 
 
