@@ -69,8 +69,6 @@ Epic周免 = type=cron, cronexp=0 9 */7 * *, wake-system=1, timeout=20, script-p
 # > PSN会免
 PSN会免 = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/psn.js, script-update-interval=0
 
-# > GitHub
-GitHub = type=cron, cronexp=0 9 * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js, script-update-interval=0
 
 
 
